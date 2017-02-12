@@ -6,6 +6,7 @@
     <title>{{ ( isset( $title ) ) ? $title . ' - Wizum' : 'Wizum' }}</title>
     <link rel="stylesheet" href="{{ asset('css/foundation.css') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/foundation.min.css') }}">
 </head>
 <body>
     <!-- Top Bar -->
