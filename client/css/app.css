@@ -15,8 +15,10 @@ h1 {
     height: 88vh;
     background-color: #ddd;
 }
-
-
+.wrap-index {
+    height: 88vh;
+    background-color:red;
+}
 hr {
     border-bottom-color:#f3f3f3;
 }
