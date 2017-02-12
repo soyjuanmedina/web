@@ -82,7 +82,7 @@ hr {
     text-align: center;
 }
 .wrap-intereses input:checked + label {
-    background-color: red;
+    background-color: #f49403;
 }
 .button svg {
     fill: #fff;
@@ -90,8 +90,6 @@ hr {
     height: 20px;
     vertical-align: middle;
 }
-
-
 .numLinea {
     display: inline-block; line-height: 32px; width: 32px; text-align: center;
     color: #fff;
