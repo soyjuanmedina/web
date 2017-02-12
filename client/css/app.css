@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Overpass:300,400,700,900');
 body {
 font-family: 'Overpass', sans-serif;
-font-weight: 300;
+
+}
+.row {
+    width: 89%;
 }
 h1 {
     font-family: 'Amatic SC', cursive;
@@ -129,4 +132,85 @@ hr {
     padding: 5px 10px;
     margin-bottom: 10px;
     cursor: pointer;
+}
+
+.card {
+    width: 260px;
+    box-shadow: rgba(0,0,0,.1) 0 1px 4px;
+}
+.card__body {
+    padding:20px 14px 24px;
+}
+.card__footer {
+    background-color: #f8f8f8;
+    padding-top: 18px;
+}
+.card__body__intereses {
+    margin-bottom: 21px;
+}
+.card__body__interes {
+    display: inline-block; 
+    margin-right: 8px;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    margin-bottom: 6px;
+    padding: 0 6px;
+}
+.card__body__transporte {
+    margin-right: 4px;
+}
+.card__body__transporte .numLinea {
+    margin-right: 0;
+}
+
+.wrap-cards {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.card__foto {
+    height: 142px;
+    position: relative;
+    text-align: center;
+    background-color: #ddd;
+}
+.card__foto img {
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+}
+.conexion {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.2);
+    padding: 0 4px;
+    font-size: .82em;
+    z-index: 8;
+    color: #fff;
+
+}
+.card__foto img {
+    position: relative;
+    z-index: 1;
+}
+.bg img {
+    height: auto;
+    width: 100%;
+    transform: translateY(-20%);
+            -webkit-filter: brightness(3);
+    filter: brightness(3);
+        -webkit-filter: blur(15px);
+    filter: blur(15px);
+}
+.bg {
+    position: absolute;
+    opacity: .9;
+    top: 0;
+    height: 100%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+
 }
