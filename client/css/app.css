@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Overpass:300,400,700,900');
+body {
+font-family: 'Overpass', sans-serif;
+font-weight: 300;
+}
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    padding-top: 35px;
+}
 .full-page-slider {
     height: 88vh;
     background-color: #ddd;
+}
+
+
+hr {
+    border-bottom-color:#f3f3f3;
 }
 .header-app {
     height: 12vh;
@@ -33,4 +48,79 @@
 .info-user {
     margin-right: 50px;
     font-size: .85em;
+}
+
+.wrap-intereses label {
+    display: inline-block;
+    padding: 10px 24px;
+    background-color: #ddd;
+    margin:4px 10px 16px;
+    border-radius: 5px;
+}
+.wrap-intereses input {
+    display:none;
+}
+.wrap-intereses {
+    max-width: 620px;
+    padding: 25px 0;
+    margin: 0 auto 25px;
+    text-align: center;
+}
+.wrap-intereses input:checked + label {
+    background-color: red;
+}
+.button svg {
+    fill: #fff;
+    margin: 0 0 0 10px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+.numLinea {
+    display: inline-block; line-height: 32px; width: 32px; text-align: center;
+    color: #fff;
+    background-color: #333;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+#linea1 .numLinea {
+    background-color: #30a3dc;
+}
+#linea2 .numLinea {
+    background-color: #e2001a;
+}
+#linea3 .numLinea {
+    background-color: #ffe114;
+    color: #111;
+}
+#linea4 .numLinea {
+    background-color: #944248;
+}
+#linea5 .numLinea {
+    background-color: #96bf0d;
+}
+#linea6 .numLinea {
+    background-color: #9fa4a6;
+}
+#linea7 .numLinea {
+    background-color: #faa64a;
+}
+#linea8 .numLinea {
+    background-color: #f27ca2;
+}
+#linea9 .numLinea {
+    background-color: #a3228d;
+}
+#linea10 .numLinea {
+    background-color: #084594;
+}
+#linea11 .numLinea {
+    background-color: #008b43;
+}
+#linea12 .numLinea {
+    background-color: #a49a00;
+}
+.tabs-panel.is-active  {
+    display: block;
 }
