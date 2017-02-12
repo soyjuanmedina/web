@@ -209,7 +209,7 @@ hr {
     height: auto;
     width: 100%;
     transform: translateY(-20%);
-            -webkit-filter: brightness(3);
+     -webkit-filter: brightness(3);
     filter: brightness(3);
         -webkit-filter: blur(15px);
     filter: blur(15px);
@@ -230,4 +230,7 @@ hr {
 }
 .btn-back {
     transform: rotate(180deg)
+}
+.callout {
+    text-align: left;
 }
