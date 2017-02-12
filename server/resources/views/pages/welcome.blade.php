@@ -154,9 +154,4 @@
 
 
 </form>
-
-
-
-    
-
 @endsection
