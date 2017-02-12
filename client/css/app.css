@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Overpass:300,400,700,900');
 body {
 font-family: 'Overpass', sans-serif;
-
+}
+.logo {
+    margin-left: 0.9375rem;
 }
 .row {
     width: 89%;
@@ -11,13 +13,17 @@ h1 {
     font-weight: 700;
     padding-top: 35px;
 }
+
 .full-page-slider {
     height: 88vh;
     background-color: #ddd;
 }
 .wrap-index {
     height: 88vh;
-    background-color:red;
+    background-color:#e79734;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
 }
 hr {
     border-bottom-color:#f3f3f3;
@@ -137,7 +143,7 @@ hr {
 }
 
 .card {
-    width: 260px;
+    width: 226px;
     box-shadow: rgba(0,0,0,.1) 0 1px 4px;
 }
 .card__body {
@@ -215,4 +221,11 @@ hr {
     width: 100%;
     overflow: hidden;
 
+}
+.header-app .button svg {
+    margin:0 4px 0 0;
+    fill: #fff;
+}
+.btn-back {
+    transform: rotate(180deg)
 }
