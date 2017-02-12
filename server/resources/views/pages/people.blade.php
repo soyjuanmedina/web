@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>People | Wizum</title>
-</head>
-<body>
+@extends('layouts.master')
 
-	<h1>People</h1>
+@section('content')
 
-	<a href="{{ route('auth-logout') }}">Logout</a>
-	
-</body>
-</html>
+@endsection
