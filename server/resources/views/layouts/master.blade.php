@@ -6,13 +6,14 @@
     <title>{{ ( isset( $title ) ) ? $title . ' - Wizum' : 'Wizum' }}</title>
     <link rel="stylesheet" href="{{ asset('css/foundation.css') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/foundation.min.css') }}">
 </head>
 <body>
     <!-- Top Bar -->
     <header class="header-app">
         <!-- Start Top Bar -->
         <div class="row align-middle align-justify">
-            <div class="logo"><img src="{{ asset('img/logo.png') }}" alt=""></div>
+            <div class="logo"><a href="{{ route('landing') }}"><img src="{{ asset('img/logo.png') }}" alt="Wizum"></a></div>
             <div class="login">
                 @if( Auth::check() )
                     <div class="name-user">{{ Auth::user()->name }}</div>
