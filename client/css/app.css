@@ -1,0 +1,36 @@
+.full-page-slider {
+    height: 88vh;
+    background-color: #ddd;
+}
+.header-app {
+    height: 12vh;
+    background-color: #fff; 
+    box-shadow: rgba(0,0,0,.2) 0 1px 3px;
+}
+.header-app .button {
+    margin:0;
+}
+.header-app .row {
+    height: 100%;
+}
+.full-page-slider 
+.orbit-container,
+.full-page-slider .orbit-slide {
+    height: 100%;
+}
+.img-user {
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.name-user {
+    margin-bottom: 4px;
+}
+.logout-user {
+    line-height: 1em;
+}
+.info-user {
+    margin-right: 50px;
+    font-size: .85em;
+}
