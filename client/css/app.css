@@ -84,43 +84,49 @@ hr {
     border-radius: 2px;
     margin-right: 10px;
 }
-#linea1 .numLinea {
+.l1 .numLinea {
     background-color: #30a3dc;
 }
-#linea2 .numLinea {
+.l2 .numLinea {
     background-color: #e2001a;
 }
-#linea3 .numLinea {
+.l3 .numLinea {
     background-color: #ffe114;
     color: #111;
 }
-#linea4 .numLinea {
+.l4 .numLinea {
     background-color: #944248;
 }
-#linea5 .numLinea {
+.l5 .numLinea {
     background-color: #96bf0d;
 }
-#linea6 .numLinea {
+.l6 .numLinea {
     background-color: #9fa4a6;
 }
-#linea7 .numLinea {
+.l7 .numLinea {
     background-color: #faa64a;
 }
-#linea8 .numLinea {
+.l8 .numLinea {
     background-color: #f27ca2;
 }
-#linea9 .numLinea {
+.l9 .numLinea {
     background-color: #a3228d;
 }
-#linea10 .numLinea {
+.l10 .numLinea {
     background-color: #084594;
 }
-#linea11 .numLinea {
+.l11 .numLinea {
     background-color: #008b43;
 }
-#linea12 .numLinea {
+.l12 .numLinea {
     background-color: #a49a00;
 }
 .tabs-panel.is-active  {
     display: block;
+}
+.transporte-elegir label {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
